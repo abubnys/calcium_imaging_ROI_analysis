@@ -1,4 +1,4 @@
-# calcium imaging ROI analysis
+# Calcium Imaging ROI Analysis
 We performed calcium imaging experiments on cultures containing a mixture of GFP+ and CFP+ neurons using the red shifted calcium sensitive dye Rhodamine3. This code calculates the mean Rhod3 fluorescence intensity of user identified ROIs for CFP+, GFP+, and CFP-/GFP- Rhod3+ neurons. Since the GFP+ neurons show up on both the GFP and CFP channels, whereas the CFP+ neurons only show up on the CFP channel, we perform identification of GFP+ neurons first, then identify CFP+ neurons as ones that show up on the CFP channel but not the GFP channel. 
 
 ### Running the code
